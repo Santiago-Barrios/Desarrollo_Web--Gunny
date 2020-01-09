@@ -67,6 +67,7 @@ h2
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .hero-image
 {
@@ -87,6 +88,7 @@ h2
     display:flex; 
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .project-strong
 {
@@ -129,6 +131,7 @@ h2
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .menu
 {
@@ -169,6 +172,7 @@ ol
     align-items: center;
     justify-content: space-between;
     /* width: 1550px; */
+    flex-wrap: wrap;
 }
 .footer img
 {
@@ -244,6 +248,7 @@ figure
     align-items: center;
     /* width: 1550px; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social
@@ -306,7 +311,7 @@ figure
 .container
 {
     /* border: 1px solid red; */
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -322,8 +327,8 @@ figure
 {
     body
     {
-        border: 10px solid greenyellow;
-    }
+/*         border: 10px solid greenyellow;
+ */    }
 }
 
 @media screen and (max-width: 480px)
