@@ -312,6 +312,8 @@ figure
 {
     /* border: 1px solid red; */
     max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -323,12 +325,30 @@ figure
 {
 
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
-    body
+    .header
     {
-/*         border: 10px solid greenyellow;
- */    }
+        display: block;
+        height: auto;
+    }
+    .header .logo
+    {
+        text-align: center;
+    }
+    .header ol
+    {
+        display: block;
+        height: auto;
+    }
+    .header ol li
+    {
+        height: 30px;
+    }
+    .header a
+    {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 480px)
