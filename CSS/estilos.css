@@ -118,11 +118,15 @@ h2
 }
 .project-details
 {
-    width: 500px;
+    width: 50%;
 }
 .project-imageContainer
 {
-    width: 500px;
+    width: 50%;
+}
+.project-imageContainer img
+{
+    max-width: 100%;
 }
 .header
 {
@@ -349,14 +353,67 @@ figure
     {
         justify-content: center;
     }
+    .project
+    {
+        display: block;
+    }
+    .project-details
+    {
+        width: auto;
+        /* font-size: 16px; */
+    }
+    .project-imageContainer
+    {
+        width: auto;
+        text-align: center;
+    }
+    .project-course, .project-date, .project-url
+    {
+        margin: .2em 0;
+    }
+    .project-title
+    {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-course
+    {
+        font-size: .8em;
+    }
+    .project-url
+    {
+        font-size: 1em;
+    }
+    .project-date
+    {
+        font-size: 1em;
+    }
+    .project-description
+    {
+        font-size: .8em;
+    }
+    h2
+    {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 480px)
 {
-
+    .project-details
+    {
+        font-size: 12px;
+    }
+    h2
+    {
+        font-size: 1.6em;
+    }
 }
 
 @media screen and (max-width: 320px)
 {
-
+    h2
+    {
+        font-size: 1em;
+    }
 }
