@@ -342,9 +342,9 @@ figure
     {
         position: absolute;
         z-index: 1;
-        left: 0;
+        left: -92px;
         right: 0;
-        top: 0;
+        top: -529px;
         bottom: 0;
         width: 100%;
         height: auto;
@@ -356,6 +356,17 @@ figure
 }
 @media screen and (max-width: 767px)
 {
+    .hero-image
+    {
+        position: absolute;
+        z-index: 1;
+        left: -92px;
+        right: 0;
+        top: -420px;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
     h1
     {
         font-size: 1.5em;
@@ -439,6 +450,17 @@ figure
 
 @media screen and (max-width: 480px)
 {
+    .hero-image
+    {
+        position: absolute;
+        z-index: 1;
+        left: -39px;
+        right: 0;
+        top: -204px;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
     h2
     {
         font-size: 1em;
@@ -482,8 +504,23 @@ figure
 
 @media screen and (max-width: 320px)
 {
+    .hero-image
+    {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: -116px;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
     h2
     {
         font-size: .8em;
+    }
+    h1
+    {
+        font-size: 1em;
     }
 }
