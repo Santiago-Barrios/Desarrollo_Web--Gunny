@@ -202,8 +202,8 @@ ol
 }
 .event
 {
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f4fbff;
@@ -396,6 +396,16 @@ figure
     {
         font-size: 1.5em;
     }
+    .event
+    {
+        width: auto;
+        flex-shrink: initial;
+    }
+    .event img
+    {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 480px)
@@ -407,6 +417,12 @@ figure
     h2
     {
         font-size: 1.6em;
+    }
+    .event-detail
+    {
+        /* 1em=16px */
+        margin: -2.5em .6em .6em .6em;
+        padding: .8em;
     }
 }
 
