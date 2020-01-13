@@ -1,3 +1,4 @@
+const ipad = window.matchMedia('screen and (max-width: 767px)');
 const menu = document.querySelector('.menu');
 const burgerbutton = document.querySelector('#burger-menu');
 console.log(menu);
@@ -15,5 +16,17 @@ function showHide()
     }
 }
 
-burgerbutton.addEventListener('click', showHide );
 
+function validation(event)
+{
+    if(event.matches)
+    {
+        burgerbutton.addEventListener('click', showHide );
+    }
+    else
+    {
+        burgerbutton.removeEventListener('click', showHide );
+    }
+}
+
+ipad.addListener(validation);
