@@ -43,10 +43,26 @@ valores */
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-menu:before {
+.icon-menu:before {
     content: "\e900";
   }
-
+.burger-buttom
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    background-color:rgba(0, 0, 0, .7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    left: 5px;
+    top: 5px;
+    color: white;
+    /* font-size: 30px; */
+}
 body
 {
     font-family: 'Source sans pro', sans-serif;
@@ -412,6 +428,14 @@ figure
 }
 @media screen and (max-width: 767px)
 {
+    .menu
+    {
+        position: fixed;
+    }
+    .burger-buttom
+    {
+        display: flex;
+    }
     h1
     {
         font-size: 1.5em;
