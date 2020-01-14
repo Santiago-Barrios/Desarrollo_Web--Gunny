@@ -397,8 +397,12 @@ figure
     height: inherit;
     flex-wrap: inherit;
 }
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1023px)
 {
+    .events-title
+    {
+        margin-left: 0;
+    }
     .container
     {
         padding: 0 .8em;
@@ -536,17 +540,22 @@ figure
 
 @media screen and (max-width: 480px)
 {
+    .portfolio
+    {
+        padding: 0;
+    }
     h2
     {
         font-size: 1em;
     }
     .project-details
     {
-        font-size: 16px;
+        font-size: 18px;
     }
     h2
     {
-        font-size: 1.6em;
+        font-size: 1.2em;
+        margin: 0.5em 0;
     }
     .event-detail
     {
@@ -574,6 +583,12 @@ figure
         display: block;
         text-align: center;
         border: 1px solid transparent;
+    }
+    .social-link
+    {
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 }
 
