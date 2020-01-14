@@ -16,7 +16,6 @@ function showHide()
     }
 }
 
-
 function validation(event)
 {
     if(event.matches)
@@ -28,5 +27,5 @@ function validation(event)
         burgerbutton.removeEventListener('click', showHide );
     }
 }
-
+    validation(ipad);
 ipad.addListener(validation);
